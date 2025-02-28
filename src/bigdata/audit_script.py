@@ -5,8 +5,8 @@ import json
 
 # Definir rutas
 API_URL = "https://www.fruityvice.com/api/fruit/all"
-DB_PATH = "src/BigData/static/db/ingestion.db"
-AUDIT_PATH = "src/BigData/static/auditoria/ingestion.txt"  # 🔹 Define la ruta correctamente
+DB_PATH = "src/bigdata/static/db/ingestion.db"
+AUDIT_PATH = "src/bigdata/static/auditoria/ingestion.txt" 
 
 # Obtener datos de la API
 def obtener_datos_api():

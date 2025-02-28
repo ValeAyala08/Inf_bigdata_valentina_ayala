@@ -7,8 +7,8 @@ import os
 API_URL = "https://www.fruityvice.com/api/fruit/all"
 
 # Definir la ruta de la base de datos SQLite
-DB_PATH = "src/BigData/static/db/ingestion.db"
-CSV_PATH = "src/BigData/static/xlsx/ingestion.csv"
+DB_PATH = "src/bigdata/static/db/ingestion.db"
+CSV_PATH = "src/bigdata/static/xlsx/ingestion.csv"
 
 def obtener_datos_api():
     """Obtiene los datos de la API y los devuelve en formato JSON."""
