@@ -1,4 +1,4 @@
-name: Actividad 1
+name: Actividad 1 y 2
 
 on:
   push:
@@ -30,7 +30,12 @@ jobs:
       - name: paso5 - Ejecutar ingestion
         run: python src/bigdata/ingestion.py 
       - name: paso6 - Ejecutar Auditoria
-        run: python src/BigData/audit_script.py
+        run: python src/bigdata/audit_script.py
+      - name: paso7 - Ejecutar datos sucios
+        run: python src/bigdata/data_sucio.py
+      - name: paso8 - Ejecutar Limpieza
+        run: python src/bigdata/cleaning.py
+
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5

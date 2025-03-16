@@ -12,6 +12,7 @@ setup(
         "pandas",
         "matplotlib",
         "openpyxl",
-        "requests"
+        "requests",
+        "faker"
     ]
 )

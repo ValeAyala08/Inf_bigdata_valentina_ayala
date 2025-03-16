@@ -1,0 +1,10 @@
+2025-03-16 20:42:25,898 - INFO - Registros iniciales: 366
+2025-03-16 20:42:25,898 - INFO - Valores nulos detectados: 89
+2025-03-16 20:42:25,898 - INFO - Registros duplicados: 167
+2025-03-16 20:42:25,910 - INFO - Registros después de la limpieza: 199
+2025-03-16 20:42:25,913 - INFO - Archivo cleaned_data.csv generado correctamente.
+2025-03-16 21:06:38,361 - INFO - Registros iniciales: 219
+2025-03-16 21:06:38,361 - INFO - Valores nulos detectados: 89
+2025-03-16 21:06:38,362 - INFO - Registros duplicados: 20
+2025-03-16 21:06:38,366 - INFO - Registros después de la limpieza: 199
+2025-03-16 21:06:38,369 - INFO - Archivo cleaned_data.csv generado correctamente.

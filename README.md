@@ -1,7 +1,7 @@
 # Inf_bigdata_valentina_ayala
 
 Autores:
-Valentina Ayala Zapata Luisa A. Carvajal Mazo
+Valentina Ayala Zapata, Luisa A. Carvajal Mazo y Hugo A. Carvajal
 
 Clonar el repositorio desde https://github.com/ValeAyala08/Inf_bigdata_valentina_ayala.git
 
@@ -18,9 +18,14 @@ paso3 - actualizar pip
 paso4 - instalar dependencias
     $ pip install -e .
 paso5 - Ejecutar ingestion
-    $ python src/BigData/ingestion.py 
+    $ python src/bigdata/ingestion.py 
 paso6 - Ejecutar Auditoria
-    $ python src/BigData/audit_script.py
+    $ python src/bigdata/audit_script.py
+paso7 - Ejecutar datos sucios
+    $ python src/bigdata/data_sucio.py
+paso8 - Ejecutar limpieza
+    $ python src/bigdata/cleaning.py
+
 NOTA IMPORTANTE:
 Despues de hacer git push al repositorio remoto es muy importante si se va a trabajar en codigo local que se bajen los cambios del remoto al local para evitar divergencias en las ramas. Una vez hecho los cambios y sincronizada las ramas, puede hacer nuevamente git push. Esto debido a que el workflows ejecuta comandos que escriben archivos del repositorio y estos archivos no estan ignorados para git.
 
