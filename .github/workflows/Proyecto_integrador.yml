@@ -1,4 +1,4 @@
-name: Actividad 1 y 2
+name: Actividad 1, 2 y 3
 
 on:
   push:
@@ -35,6 +35,8 @@ jobs:
         run: python src/bigdata/data_sucio.py
       - name: paso8 - Ejecutar Limpieza
         run: python src/bigdata/cleaning.py
+      - name: paso9 - Ejecutar Enriquesimiento
+        run: python src/bigdata/enrichement.py
 
 
       - name: Commit and Push changes

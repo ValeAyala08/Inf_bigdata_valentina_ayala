@@ -25,6 +25,8 @@ paso7 - Ejecutar datos sucios
     $ python src/bigdata/data_sucio.py
 paso8 - Ejecutar limpieza
     $ python src/bigdata/cleaning.py
+paso9 - Ejecutar Enriquesimiento
+        run: python src/bigdata/enrichement.py
 
 NOTA IMPORTANTE:
 Despues de hacer git push al repositorio remoto es muy importante si se va a trabajar en codigo local que se bajen los cambios del remoto al local para evitar divergencias en las ramas. Una vez hecho los cambios y sincronizada las ramas, puede hacer nuevamente git push. Esto debido a que el workflows ejecuta comandos que escriben archivos del repositorio y estos archivos no estan ignorados para git.
