@@ -23,3 +23,8 @@
 2025-03-30 21:58:21,891 - INFO - Registros duplicados: 20
 2025-03-30 21:58:21,891 - INFO - Registros después de la limpieza: 199
 2025-03-30 21:58:21,891 - INFO - Archivo cleaned_data.csv generado correctamente.
+2025-04-07 02:36:42,818 - INFO - Registros iniciales: 219
+2025-04-07 02:36:42,818 - INFO - Valores nulos detectados: 96
+2025-04-07 02:36:42,818 - INFO - Registros duplicados: 20
+2025-04-07 02:36:42,818 - INFO - Registros después de la limpieza: 199
+2025-04-07 02:36:42,834 - INFO - Archivo cleaned_data.csv generado correctamente.
